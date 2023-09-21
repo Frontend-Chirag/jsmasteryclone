@@ -24,12 +24,12 @@ const Page = async ({ searchParams }: Props) => {
  
   return (
     <main className="flex-center paddings mx-auto relative w-full max-w-screen-2xl flex-col">
-      <div className='z-[-1] w-[100px] h-[100px] linear absolute sm:left-[15px] sm:top-[10%] left-[0px] top-[5%] '></div>
-      <div className='z-[-1] w-[100px] h-[100px] linear absolute sm:left-[35px] sm:top-[15%] left-[18px]  top-[10%]'></div>
-      <div className='z-[-1] w-[100px] h-[100px] linear absolute sm:left-[15px] sm:top-[20%] left-[0px] top-[15%]'></div>
-      <div className='z-[-1] w-[100px] h-[100px] linear absolute right-[20px] top-[50%] rounded-full'></div>
-      <div className='z-[-1] w-[100px] h-[100px] linear absolute right-[-15px] top-[55%] rounded-full'></div>
-      <div className='z-[-1] w-[100px] h-[100px] linear absolute right-[5px] top-[60%] rounded-full'></div>
+      <div className='z-[-1] w-[100px] h-[100px] linear absolute sm:left-[15px]  left-[0px] top-[5%] '></div>
+      <div className='z-[-1] w-[100px] h-[100px] linear absolute sm:left-[35px]  left-[18px]  top-[10%]'></div>
+      <div className='z-[-1] w-[100px] h-[100px] linear absolute sm:left-[15px]  left-[0px] top-[15%]'></div>
+      <div className='z-[-1] w-[100px] h-[100px] linear absolute right-[20px] top-[10%] rounded-full'></div>
+      <div className='z-[-1] w-[100px] h-[100px] linear absolute right-[-15px] top-[15%] rounded-full'></div>
+      <div className='z-[-1] w-[100px] h-[100px] linear absolute right-[5px] top-[20%] rounded-full'></div>
     
     <section className="nav-padding w-full">
       <div className='flex-center relative  min-h-[264px] w-full flex-col rounded-xl 
