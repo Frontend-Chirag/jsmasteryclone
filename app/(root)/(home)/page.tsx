@@ -7,7 +7,6 @@ import SearchForm from '@/components/SearchForm'
 import { getResources, getResourcesPlaylist } from '@/sanity/actions'
 import React from 'react'
 
-export const reValidate = 400;
 
 interface Props {
   searchParams: { [key: string]: string | undefined }
